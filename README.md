@@ -47,4 +47,6 @@ Run `python3 scripts/build-standalone.py` to rebuild the self-contained HTML.
 
 ## Hosting
 
-Existing private Sites identity is preserved in `.openai/hosting.json`. Publication remains blocked because the execution environment cannot resolve git.chatgpt-team.site. No live deployment is claimed.
+For Vercel, import `harshsinha-12/scalio-merch` with the repository root as the Root Directory and Framework Preset **Other**. The committed `vercel.json` sets the Output Directory to `dist` and skips installation/build steps. No environment variables are needed. Only the static website and its assets are served.
+
+Configuration follows [Vercel's static build guidance](https://vercel.com/docs/builds) and [vercel.json reference](https://vercel.com/docs/project-configuration/vercel-json). The standalone HTML and ZIP files under `outputs/` are local sharing artifacts and are not committed or deployed.
