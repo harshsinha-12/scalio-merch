@@ -2,7 +2,15 @@
 
 A standalone WebGL streetwear concept in Scalio orange, cream, and ink.
 
-Open `outputs/Scalio-Off-Script.html` directly in a browser. It contains all scripts, styles, fonts and artwork. The editable website is `dist/index.html`; serve `dist/` through any static host. No dependencies or build required.
+Open `outputs/Scalio-Photo-Studio.html` directly in a browser. It contains all scripts, styles, fonts, artwork and the four original AI images. The editable website is `dist/index.html`; serve `dist/` through any static host. No dependencies or build required.
+
+## Revision 4 — AI photo library
+
+The main download options now deliver saved AI-generated PNGs, with thumbnail previews and a full-size photo mode alongside the interactive 3D studio. The cream collection includes garment-only front/back images (1161 × 1355) and on-model front/back images (1086 × 1448). Fabric texture, natural shoulder drape, collar construction and soft photographic shadows refine the presentation.
+
+Original files live in `dist/assets/photos/` and `outputs/ai-photos/`; `outputs/scalio-ai-photo-pack.zip` bundles all four. Downloads serve these files directly, preserving their original bytes. Changing the 3D garment color, lighting or uploaded artwork does not regenerate the saved collection; the interface labels this explicitly.
+
+Images were generated with the built-in image_gen tool using the existing front/back design renders as references. The complete prompt set is saved in `scripts/photo-prompts.json`. AI images are presentation concepts; the flat artwork and placement sheet remain available under “3D mockups & artwork references.”
 
 ## Revision 3 — Apparel studio
 
@@ -29,7 +37,7 @@ Original Scalio artwork; no competitor graphics copied. Mascot geometry adapted 
 
 ## Validation
 
-`node --check dist/app.js` and `node scripts/verify-mesh.cjs` pass. Geometry validation checks finite coordinates and unit normals. Native Safari review covered the studio layout and updated cream back view. Front, back and paired-sheet PNGs were downloaded successfully, and the paired sheet was visually inspected. Exported image dimensions were verified. Flat artwork export and mobile interaction were not browser-tested in this revision. The model is a stylized procedural apparel visualization.
+`node --check dist/app.js` and `node scripts/verify-mesh.cjs` pass. Geometry validation checks finite coordinates and unit normals. All four AI images were visually reviewed. Native Safari review covered the new photo preview and download flow; the downloaded garment-back PNG was verified byte-for-byte against the original. All four standalone embedded images were also verified against the source files. Earlier studio checks covered front/back and paired-sheet exports. Mobile interaction was not browser-tested in this revision. The interactive model is a stylized procedural apparel visualization.
 
 Run `python3 scripts/build-standalone.py` to rebuild the self-contained HTML.
 
