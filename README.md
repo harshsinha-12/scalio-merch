@@ -47,6 +47,14 @@ Run `python3 scripts/build-standalone.py` to rebuild the self-contained HTML.
 
 ## Hosting
 
-For Vercel, import `harshsinha-12/scalio-merch` with the repository root as the Root Directory and Framework Preset **Other**. The committed `vercel.json` sets the Output Directory to `dist` and skips installation/build steps. No environment variables are needed. Only the static website and its assets are served.
+For Vercel, import `harshsinha-12/scalio-merch` with the repository root as the Root Directory and Framework Preset **Other**. The committed `vercel.json` runs `node scripts/build-site.cjs`, skips installation and serves the generated `build` directory. No packages are required. Only the static website and its assets are served.
+
+### Social sharing
+
+The page contains Open Graph and Twitter large-image card metadata, with a dedicated branded image at `dist/assets/social/scalio-off-script.png`. The image was created with built-in image_gen; the final prompt is in `scripts/social-image-prompt.json`.
+
+The build injects absolute image, canonical and `og:url` URLs into the HTML before deployment. It uses `SITE_URL` when explicitly set, otherwise Vercel's `VERCEL_PROJECT_PRODUCTION_URL`, then `VERCEL_URL`. Keep Vercel's system environment variables enabled; set `SITE_URL=https://your-custom-domain.com` if you want an explicit canonical domain. The source `dist/index.html` uses relative URLs for local previews. Outside Vercel, supply `SITE_URL` when running the build and publish `build/`.
+
+Run `node scripts/verify-social.cjs` to check URL selection, tag uniqueness, image dimensions and the Twitter card. Live social-platform scraping can only be checked after public deployment. Domain handling follows [Vercel's system variable documentation](https://vercel.com/docs/environment-variables/system-environment-variables); metadata follows the [Open Graph protocol](https://ogp.me/).
 
 Configuration follows [Vercel's static build guidance](https://vercel.com/docs/builds) and [vercel.json reference](https://vercel.com/docs/project-configuration/vercel-json). The standalone HTML and ZIP files under `outputs/` are local sharing artifacts and are not committed or deployed.
