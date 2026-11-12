@@ -2,3 +2,11 @@
 #viewport:before{content:"";position:absolute;left:22%;right:22%;bottom:6%;height:7%;background:radial-gradient(ellipse,#27231c27,transparent 68%);filter:blur(8px);z-index:0;pointer-events:none}#shirt{position:relative;z-index:1}button:disabled{opacity:.5;cursor:wait}
 
 [hidden]{display:none!important}.scene{user-select:none}
+
+/* Capsule 001 — editorial product study */
+.big-word{font-size:18vw;top:23%;letter-spacing:-.065em;color:#e4dfd4}
+.story{top:37%;width:30%;left:6%}h1{font-size:clamp(56px,6.4vw,100px);font-weight:800;line-height:.87;letter-spacing:-.065em}
+.story p{margin-top:27px;font-size:13px}.edition{letter-spacing:1.5px}#viewport{left:32%;width:61%;top:16%;height:73%}
+.stage-palette{position:absolute;right:5%;bottom:5.5%;display:flex;align-items:center;gap:20px;z-index:4}.stage-palette>span{font-size:8px;letter-spacing:1.2px}.stage-palette .swatches{gap:9px}.stage-palette .swatches button{width:27px;height:27px;border-width:4px;border-color:#f3eee5}.chapter-count{bottom:115px}.view-controls{left:62%;bottom:12%}
+.print-story{padding-left:10%}.proofs{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.proofs figure{margin:0}.proofs canvas{width:100%;display:block;background:#252923}.proofs figcaption{font-size:8px;letter-spacing:.7px;margin-top:12px;color:#77766c}.print-story h3{font:700 33px/1.1 Display;letter-spacing:-1px;margin:32px 0 15px}
+@media(max-width:760px){.story{top:19%;left:6%;width:88%}h1{font-size:64px}.big-word{top:36%;font-size:20vw}#viewport{top:35%;left:0;width:100%;height:51%}.view-controls{left:50%;bottom:9%}.stage-palette{right:6%;bottom:3%}.stage-palette>span{display:none}.chapter-count{bottom:105px}.scroll-note{bottom:30px;max-width:52%;line-height:1.8}.print-story{padding-left:0}.explore{top:35px}.proofs{max-width:480px}.manifesto h2{font-size:45px}}

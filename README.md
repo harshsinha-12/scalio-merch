@@ -1,26 +1,30 @@
-# Scalio — Made of Possibility
+# Scalio — OFF SCRIPT
 
-A standalone, dependency-free WebGL apparel concept in Scalio orange, cream, and ink.
+A standalone WebGL streetwear concept in Scalio orange, cream, and ink.
 
-Open `dist/index.html` in Safari or another WebGL-capable browser. Alternatively serve `dist/` with any static HTTP server. No build or installation is required.
+Open `outputs/Scalio-Off-Script.html` directly in a browser. It contains all scripts, styles, fonts and artwork. The editable website is `dist/index.html`; serve `dist/` through any static host. No dependencies or build required.
 
-## Features
+## Revision 2
 
-- Procedural volumetric tee with open collar, sleeves, cotton grain, and directional lighting.
-- Scroll-driven full turn; pointer drag and keyboard arrows; front, back, detail, and automatic rotation.
-- Ink, cream, and orange colorways.
-- Local PNG/JPEG artwork upload and reset.
-- Campaign PNG export at 2000 × 2400 with three background treatments.
-- Local fonts and embedded mascot; no remote runtime dependencies.
+The original disconnected sleeve cylinders and shoulder panels have been replaced with a single garment outline, front/back shells and sewn side edges. Collar, cuffs and hem remain open. Adaptive triangulation resolves long diagonal shading artifacts, with shared normals and more consistent seam lighting.
 
-## Brand sources
+The new OFF SCRIPT capsule uses a quiet chest signature and an oversized three-pass mascot poster on the back. Includes distressed ink, a graph-paper field, small woven-label detail, and screenprint-style color treatments. The studio includes flat artwork proofs, immediate color controls, and front/back/side/detail presets. Drag, keyboard rotation, scroll rotation, custom artwork upload and 2000 × 2400 PNG export remain available.
 
-Mascot geometry adapted from the existing Scalio mobile `IntroMascot.tsx` component. This could not be compared with the supplied Claude artifact because that URL was inaccessible. Orange palette explicitly selected by the user. Bricolage Grotesque and Hanken Grotesk files from the local Scalio web project; their OFL licenses are included in assets.
+## Design references
 
-## Verification and limits
+- [Perplexity Classic Logo Tee](https://perplexity.supply/collections/all-products/products/classic-logo-tee): front signature / back wordmark hierarchy and discreet labeling.
+- [Perplexity Curious Tee](https://perplexity.supply/products/curious-tee): coherent artwork and garment details.
+- [The Souled Store oversized collection](https://www.thesouledstore.com/explore/super-oversized-t-shirts): relaxed, dropped-shoulder proportions and substantial graphic placement.
+- [Bewakoof oversized collection](https://www.bewakoof.com/oversized-t-shirts-for-men-explore-all): expressive typography and graphic-print vocabulary.
 
-JavaScript syntax checked with `node --check dist/app.js`. Native Safari rendered the 3D garment and controls. A campaign PNG downloaded successfully. The shoulder geometry, cuff intersections, hidden-element styling, and export framing were refined after visual inspection; these final refinements have not been visually rechecked. Mobile layout and custom artwork upload require further browser testing. This is a stylized procedural concept model, not a manufacturing-ready garment mesh or physical cloth simulation. Competition screenshots were unavailable, so contest requirements are not verified.
+Original Scalio artwork; no competitor graphics copied. Mascot geometry adapted from the local Scalio mobile IntroMascot component. Font licenses are included in dist/assets.
+
+## Validation
+
+`node --check dist/app.js` and `node scripts/verify-mesh.cjs` pass. Geometry validation checks finite coordinates and unit normals. Native Safari review covered rebuilt front/back views, ink/cream colorways and updated graphic contrast. A 2000 × 2400 campaign PNG was downloaded and inspected. Final seam-normal refinement and the new side preset loaded, but the screen-capture service failed during the last side-view review. Mobile and custom upload were not retested in this revision. This is a stylized procedural apparel visualization, not a physical cloth simulation or manufacturing file.
+
+Run `python3 scripts/build-standalone.py` to rebuild the self-contained HTML.
 
 ## Hosting
 
-The private Sites project ID is retained in `.openai/hosting.json`. Publication could not complete because the execution environment could not resolve `git.chatgpt-team.site`. No live deployment is claimed. The local website works independently.
+Existing private Sites identity is preserved in `.openai/hosting.json`. Publication remains blocked because the execution environment cannot resolve git.chatgpt-team.site. No live deployment is claimed.
