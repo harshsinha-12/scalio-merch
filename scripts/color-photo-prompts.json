@@ -1,0 +1,222 @@
+{
+  "mode": "Built-in image_gen",
+  "collection": "OFF SCRIPT / Orange, Ink Black, Ash Gray",
+  "prompts": [
+    {
+      "key": "tee-orange-product-front",
+      "garment": "tee",
+      "color": "orange",
+      "pose": "product-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-product-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Saturated SCALIO ORANGE fabric (#ff621f). Printed words and scalio wordmark should be warm cream. Asterisk should be ink black. On the back change orange grid rectangle to INK BLACK with orange grid lines, cream mascot silhouette, ink black square eyes with cream curves. This is the orange colorway with reversed cream/ink artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-tee-orange-product-front.png"
+    },
+    {
+      "key": "tee-orange-product-back",
+      "garment": "tee",
+      "color": "orange",
+      "pose": "product-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-product-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Saturated SCALIO ORANGE fabric (#ff621f). Printed words and scalio wordmark should be warm cream. Asterisk should be ink black. On the back change orange grid rectangle to INK BLACK with orange grid lines, cream mascot silhouette, ink black square eyes with cream curves. This is the orange colorway with reversed cream/ink artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-tee-orange-product-back.png"
+    },
+    {
+      "key": "tee-orange-model-front",
+      "garment": "tee",
+      "color": "orange",
+      "pose": "model-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-model-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Saturated SCALIO ORANGE fabric (#ff621f). Printed words and scalio wordmark should be warm cream. Asterisk should be ink black. On the back change orange grid rectangle to INK BLACK with orange grid lines, cream mascot silhouette, ink black square eyes with cream curves. This is the orange colorway with reversed cream/ink artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-tee-orange-model-front.png"
+    },
+    {
+      "key": "tee-orange-model-back",
+      "garment": "tee",
+      "color": "orange",
+      "pose": "model-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-model-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Saturated SCALIO ORANGE fabric (#ff621f). Printed words and scalio wordmark should be warm cream. Asterisk should be ink black. On the back change orange grid rectangle to INK BLACK with orange grid lines, cream mascot silhouette, ink black square eyes with cream curves. This is the orange colorway with reversed cream/ink artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-tee-orange-model-back.png"
+    },
+    {
+      "key": "polo-orange-product-front",
+      "garment": "polo",
+      "color": "orange",
+      "pose": "product-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-product-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Saturated SCALIO ORANGE fabric (#ff621f). Printed words and scalio wordmark should be warm cream. Asterisk should be ink black. On the back change orange grid rectangle to INK BLACK with orange grid lines, cream mascot silhouette, ink black square eyes with cream curves. This is the orange colorway with reversed cream/ink artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-polo-orange-product-front.png"
+    },
+    {
+      "key": "polo-orange-product-back",
+      "garment": "polo",
+      "color": "orange",
+      "pose": "product-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-product-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Saturated SCALIO ORANGE fabric (#ff621f). Printed words and scalio wordmark should be warm cream. Asterisk should be ink black. On the back change orange grid rectangle to INK BLACK with orange grid lines, cream mascot silhouette, ink black square eyes with cream curves. This is the orange colorway with reversed cream/ink artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-polo-orange-product-back.png"
+    },
+    {
+      "key": "polo-orange-model-front",
+      "garment": "polo",
+      "color": "orange",
+      "pose": "model-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-model-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Saturated SCALIO ORANGE fabric (#ff621f). Printed words and scalio wordmark should be warm cream. Asterisk should be ink black. On the back change orange grid rectangle to INK BLACK with orange grid lines, cream mascot silhouette, ink black square eyes with cream curves. This is the orange colorway with reversed cream/ink artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-polo-orange-model-front.png"
+    },
+    {
+      "key": "polo-orange-model-back",
+      "garment": "polo",
+      "color": "orange",
+      "pose": "model-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-model-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Saturated SCALIO ORANGE fabric (#ff621f). Printed words and scalio wordmark should be warm cream. Asterisk should be ink black. On the back change orange grid rectangle to INK BLACK with orange grid lines, cream mascot silhouette, ink black square eyes with cream curves. This is the orange colorway with reversed cream/ink artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-polo-orange-model-back.png"
+    },
+    {
+      "key": "tee-ink-product-front",
+      "garment": "tee",
+      "color": "ink",
+      "pose": "product-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-product-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Deep washed INK BLACK fabric (#252923). Change black printed words to warm cream for legibility. Keep orange asterisk and orange back grid rectangle. Inside back grid, recolor mascot silhouette to cream and eye squares to ink black with cream curved eyes. Same design, correct reverse inks. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-tee-ink-product-front.png"
+    },
+    {
+      "key": "tee-ink-product-back",
+      "garment": "tee",
+      "color": "ink",
+      "pose": "product-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-product-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Deep washed INK BLACK fabric (#252923). Change black printed words to warm cream for legibility. Keep orange asterisk and orange back grid rectangle. Inside back grid, recolor mascot silhouette to cream and eye squares to ink black with cream curved eyes. Same design, correct reverse inks. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-tee-ink-product-back.png"
+    },
+    {
+      "key": "tee-ink-model-front",
+      "garment": "tee",
+      "color": "ink",
+      "pose": "model-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-model-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Deep washed INK BLACK fabric (#252923). Change black printed words to warm cream for legibility. Keep orange asterisk and orange back grid rectangle. Inside back grid, recolor mascot silhouette to cream and eye squares to ink black with cream curved eyes. Same design, correct reverse inks. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-tee-ink-model-front.png"
+    },
+    {
+      "key": "tee-ink-model-back",
+      "garment": "tee",
+      "color": "ink",
+      "pose": "model-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-model-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Deep washed INK BLACK fabric (#252923). Change black printed words to warm cream for legibility. Keep orange asterisk and orange back grid rectangle. Inside back grid, recolor mascot silhouette to cream and eye squares to ink black with cream curved eyes. Same design, correct reverse inks. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-tee-ink-model-back.png"
+    },
+    {
+      "key": "polo-ink-product-front",
+      "garment": "polo",
+      "color": "ink",
+      "pose": "product-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-product-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Deep washed INK BLACK fabric (#252923). Change black printed words to warm cream for legibility. Keep orange asterisk and orange back grid rectangle. Inside back grid, recolor mascot silhouette to cream and eye squares to ink black with cream curved eyes. Same design, correct reverse inks. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-polo-ink-product-front.png"
+    },
+    {
+      "key": "polo-ink-product-back",
+      "garment": "polo",
+      "color": "ink",
+      "pose": "product-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-product-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Deep washed INK BLACK fabric (#252923). Change black printed words to warm cream for legibility. Keep orange asterisk and orange back grid rectangle. Inside back grid, recolor mascot silhouette to cream and eye squares to ink black with cream curved eyes. Same design, correct reverse inks. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-polo-ink-product-back.png"
+    },
+    {
+      "key": "polo-ink-model-front",
+      "garment": "polo",
+      "color": "ink",
+      "pose": "model-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-model-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Deep washed INK BLACK fabric (#252923). Change black printed words to warm cream for legibility. Keep orange asterisk and orange back grid rectangle. Inside back grid, recolor mascot silhouette to cream and eye squares to ink black with cream curved eyes. Same design, correct reverse inks. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-polo-ink-model-front.png"
+    },
+    {
+      "key": "polo-ink-model-back",
+      "garment": "polo",
+      "color": "ink",
+      "pose": "model-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-model-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Deep washed INK BLACK fabric (#252923). Change black printed words to warm cream for legibility. Keep orange asterisk and orange back grid rectangle. Inside back grid, recolor mascot silhouette to cream and eye squares to ink black with cream curved eyes. Same design, correct reverse inks. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-polo-ink-model-back.png"
+    },
+    {
+      "key": "tee-gray-product-front",
+      "garment": "tee",
+      "color": "gray",
+      "pose": "product-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-product-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Premium light ASH GRAY fabric (#b3b4ad), neutral gray with subtle natural cotton mottling. Keep printed words and scalio wordmark INK BLACK and asterisk orange. Preserve orange back grid rectangle, dark mascot silhouette, cream square eyes and dark friendly curved eyes. Do not desaturate the orange artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-tee-gray-product-front.png"
+    },
+    {
+      "key": "tee-gray-product-back",
+      "garment": "tee",
+      "color": "gray",
+      "pose": "product-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-product-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Premium light ASH GRAY fabric (#b3b4ad), neutral gray with subtle natural cotton mottling. Keep printed words and scalio wordmark INK BLACK and asterisk orange. Preserve orange back grid rectangle, dark mascot silhouette, cream square eyes and dark friendly curved eyes. Do not desaturate the orange artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-tee-gray-product-back.png"
+    },
+    {
+      "key": "tee-gray-model-front",
+      "garment": "tee",
+      "color": "gray",
+      "pose": "model-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-model-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Premium light ASH GRAY fabric (#b3b4ad), neutral gray with subtle natural cotton mottling. Keep printed words and scalio wordmark INK BLACK and asterisk orange. Preserve orange back grid rectangle, dark mascot silhouette, cream square eyes and dark friendly curved eyes. Do not desaturate the orange artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-tee-gray-model-front.png"
+    },
+    {
+      "key": "tee-gray-model-back",
+      "garment": "tee",
+      "color": "gray",
+      "pose": "model-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-model-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Premium light ASH GRAY fabric (#b3b4ad), neutral gray with subtle natural cotton mottling. Keep printed words and scalio wordmark INK BLACK and asterisk orange. Preserve orange back grid rectangle, dark mascot silhouette, cream square eyes and dark friendly curved eyes. Do not desaturate the orange artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the round crew neck of the T-shirt, with tonal rib neck. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-tee-gray-model-back.png"
+    },
+    {
+      "key": "polo-gray-product-front",
+      "garment": "polo",
+      "color": "gray",
+      "pose": "product-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-product-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Premium light ASH GRAY fabric (#b3b4ad), neutral gray with subtle natural cotton mottling. Keep printed words and scalio wordmark INK BLACK and asterisk orange. Preserve orange back grid rectangle, dark mascot silhouette, cream square eyes and dark friendly curved eyes. Do not desaturate the orange artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-polo-gray-product-front.png"
+    },
+    {
+      "key": "polo-gray-product-back",
+      "garment": "polo",
+      "color": "gray",
+      "pose": "product-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-product-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Premium light ASH GRAY fabric (#b3b4ad), neutral gray with subtle natural cotton mottling. Keep printed words and scalio wordmark INK BLACK and asterisk orange. Preserve orange back grid rectangle, dark mascot silhouette, cream square eyes and dark friendly curved eyes. Do not desaturate the orange artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Garment alone, no person or mannequin.",
+      "filename": "scalio-polo-gray-product-back.png"
+    },
+    {
+      "key": "polo-gray-model-front",
+      "garment": "polo",
+      "color": "gray",
+      "pose": "model-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-model-front.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Premium light ASH GRAY fabric (#b3b4ad), neutral gray with subtle natural cotton mottling. Keep printed words and scalio wordmark INK BLACK and asterisk orange. Preserve orange back grid rectangle, dark mascot silhouette, cream square eyes and dark friendly curved eyes. Do not desaturate the orange artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-polo-gray-model-front.png"
+    },
+    {
+      "key": "polo-gray-model-back",
+      "garment": "polo",
+      "color": "gray",
+      "pose": "model-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-cream-polo-model-back.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied finished studio product photograph into another garment colorway. Preserve EXACTLY the original composition, viewing angle, crop, shirt fit, garment construction, collar, sleeve shape, fabric folds, lighting, background, and model identity/skin/clothing when present. This reference is the EDIT TARGET. Change only the garment fabric color and necessary print ink colors as follows: Premium light ASH GRAY fabric (#b3b4ad), neutral gray with subtle natural cotton mottling. Keep printed words and scalio wordmark INK BLACK and asterisk orange. Preserve orange back grid rectangle, dark mascot silhouette, cream square eyes and dark friendly curved eyes. Do not desaturate the orange artwork. Preserve every letter, word, graphic, mascot geometry and print placement from the reference; no new artwork. Preserve the polo folded collar, two-button front placket when visible, and ribbed cuffs, all tonal matching the new fabric. Maintain photographic realism, detailed cotton texture, soft shadows and natural drape. One finished studio image, no interface, no watermark, no labels or external text. Keep the original model, do not change skin tone or trousers.",
+      "filename": "scalio-polo-gray-model-back.png"
+    }
+  ]
+}

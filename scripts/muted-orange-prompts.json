@@ -1,0 +1,78 @@
+{
+  "mode": "Built-in image_gen",
+  "color": "#BD6A45",
+  "prompts": [
+    {
+      "key": "tee-orange-product-front",
+      "garment": "tee",
+      "color": "orange",
+      "pose": "product-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-tee-orange-product-front.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact finished product photograph. The orange garment is too vivid, bright and flashy. Change ONLY its orange fabric to a refined MUTED BURNT ORANGE / warm terracotta clay, target sRGB #BD6A45, a medium softly faded earthy orange with noticeably LOWER SATURATION than the reference. This should look like premium garment-dyed cotton, understated and warm, not neon orange, not bright safety orange, not glossy, not red. Tonal collar, cuffs, stitching and polo buttons match the new muted fabric. Preserve every other detail exactly: garment style and cut, folds, camera crop, background, lighting, model skin and trousers when present, typography and cream lettering, dark asterisk, large black back grid panel and cream mascot where visible. The orange grid lines in the black artwork may match the muted new fabric. Do not alter printed wording, artwork layout, silhouette or add anything. Keep original photographic quality and real natural fabric texture. Single original photograph, no UI, no watermark.",
+      "filename": "scalio-tee-orange-product-front.png"
+    },
+    {
+      "key": "tee-orange-product-back",
+      "garment": "tee",
+      "color": "orange",
+      "pose": "product-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-tee-orange-product-back.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact finished product photograph. The orange garment is too vivid, bright and flashy. Change ONLY its orange fabric to a refined MUTED BURNT ORANGE / warm terracotta clay, target sRGB #BD6A45, a medium softly faded earthy orange with noticeably LOWER SATURATION than the reference. This should look like premium garment-dyed cotton, understated and warm, not neon orange, not bright safety orange, not glossy, not red. Tonal collar, cuffs, stitching and polo buttons match the new muted fabric. Preserve every other detail exactly: garment style and cut, folds, camera crop, background, lighting, model skin and trousers when present, typography and cream lettering, dark asterisk, large black back grid panel and cream mascot where visible. The orange grid lines in the black artwork may match the muted new fabric. Do not alter printed wording, artwork layout, silhouette or add anything. Keep original photographic quality and real natural fabric texture. Single original photograph, no UI, no watermark.",
+      "filename": "scalio-tee-orange-product-back.png"
+    },
+    {
+      "key": "tee-orange-model-front",
+      "garment": "tee",
+      "color": "orange",
+      "pose": "model-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-tee-orange-model-front.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact finished product photograph. The orange garment is too vivid, bright and flashy. Change ONLY its orange fabric to a refined MUTED BURNT ORANGE / warm terracotta clay, target sRGB #BD6A45, a medium softly faded earthy orange with noticeably LOWER SATURATION than the reference. This should look like premium garment-dyed cotton, understated and warm, not neon orange, not bright safety orange, not glossy, not red. Tonal collar, cuffs, stitching and polo buttons match the new muted fabric. Preserve every other detail exactly: garment style and cut, folds, camera crop, background, lighting, model skin and trousers when present, typography and cream lettering, dark asterisk, large black back grid panel and cream mascot where visible. The orange grid lines in the black artwork may match the muted new fabric. Do not alter printed wording, artwork layout, silhouette or add anything. Keep original photographic quality and real natural fabric texture. Single original photograph, no UI, no watermark.",
+      "filename": "scalio-tee-orange-model-front.png"
+    },
+    {
+      "key": "tee-orange-model-back",
+      "garment": "tee",
+      "color": "orange",
+      "pose": "model-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-tee-orange-model-back.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact finished product photograph. The orange garment is too vivid, bright and flashy. Change ONLY its orange fabric to a refined MUTED BURNT ORANGE / warm terracotta clay, target sRGB #BD6A45, a medium softly faded earthy orange with noticeably LOWER SATURATION than the reference. This should look like premium garment-dyed cotton, understated and warm, not neon orange, not bright safety orange, not glossy, not red. Tonal collar, cuffs, stitching and polo buttons match the new muted fabric. Preserve every other detail exactly: garment style and cut, folds, camera crop, background, lighting, model skin and trousers when present, typography and cream lettering, dark asterisk, large black back grid panel and cream mascot where visible. The orange grid lines in the black artwork may match the muted new fabric. Do not alter printed wording, artwork layout, silhouette or add anything. Keep original photographic quality and real natural fabric texture. Single original photograph, no UI, no watermark.",
+      "filename": "scalio-tee-orange-model-back.png"
+    },
+    {
+      "key": "polo-orange-product-front",
+      "garment": "polo",
+      "color": "orange",
+      "pose": "product-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-polo-orange-product-front.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact finished product photograph. The orange garment is too vivid, bright and flashy. Change ONLY its orange fabric to a refined MUTED BURNT ORANGE / warm terracotta clay, target sRGB #BD6A45, a medium softly faded earthy orange with noticeably LOWER SATURATION than the reference. This should look like premium garment-dyed cotton, understated and warm, not neon orange, not bright safety orange, not glossy, not red. Tonal collar, cuffs, stitching and polo buttons match the new muted fabric. Preserve every other detail exactly: garment style and cut, folds, camera crop, background, lighting, model skin and trousers when present, typography and cream lettering, dark asterisk, large black back grid panel and cream mascot where visible. The orange grid lines in the black artwork may match the muted new fabric. Do not alter printed wording, artwork layout, silhouette or add anything. Keep original photographic quality and real natural fabric texture. Single original photograph, no UI, no watermark.",
+      "filename": "scalio-polo-orange-product-front.png"
+    },
+    {
+      "key": "polo-orange-product-back",
+      "garment": "polo",
+      "color": "orange",
+      "pose": "product-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-polo-orange-product-back.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact finished product photograph. The orange garment is too vivid, bright and flashy. Change ONLY its orange fabric to a refined MUTED BURNT ORANGE / warm terracotta clay, target sRGB #BD6A45, a medium softly faded earthy orange with noticeably LOWER SATURATION than the reference. This should look like premium garment-dyed cotton, understated and warm, not neon orange, not bright safety orange, not glossy, not red. Tonal collar, cuffs, stitching and polo buttons match the new muted fabric. Preserve every other detail exactly: garment style and cut, folds, camera crop, background, lighting, model skin and trousers when present, typography and cream lettering, dark asterisk, large black back grid panel and cream mascot where visible. The orange grid lines in the black artwork may match the muted new fabric. Do not alter printed wording, artwork layout, silhouette or add anything. Keep original photographic quality and real natural fabric texture. Single original photograph, no UI, no watermark.",
+      "filename": "scalio-polo-orange-product-back.png"
+    },
+    {
+      "key": "polo-orange-model-front",
+      "garment": "polo",
+      "color": "orange",
+      "pose": "model-front",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-polo-orange-model-front.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact finished product photograph. The orange garment is too vivid, bright and flashy. Change ONLY its orange fabric to a refined MUTED BURNT ORANGE / warm terracotta clay, target sRGB #BD6A45, a medium softly faded earthy orange with noticeably LOWER SATURATION than the reference. This should look like premium garment-dyed cotton, understated and warm, not neon orange, not bright safety orange, not glossy, not red. Tonal collar, cuffs, stitching and polo buttons match the new muted fabric. Preserve every other detail exactly: garment style and cut, folds, camera crop, background, lighting, model skin and trousers when present, typography and cream lettering, dark asterisk, large black back grid panel and cream mascot where visible. The orange grid lines in the black artwork may match the muted new fabric. Do not alter printed wording, artwork layout, silhouette or add anything. Keep original photographic quality and real natural fabric texture. Single original photograph, no UI, no watermark.",
+      "filename": "scalio-polo-orange-model-front.png"
+    },
+    {
+      "key": "polo-orange-model-back",
+      "garment": "polo",
+      "color": "orange",
+      "pose": "model-back",
+      "ref": "/Users/harshsinha/sites/scalio-possibility/dist/assets/photos/scalio-polo-orange-model-back.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact finished product photograph. The orange garment is too vivid, bright and flashy. Change ONLY its orange fabric to a refined MUTED BURNT ORANGE / warm terracotta clay, target sRGB #BD6A45, a medium softly faded earthy orange with noticeably LOWER SATURATION than the reference. This should look like premium garment-dyed cotton, understated and warm, not neon orange, not bright safety orange, not glossy, not red. Tonal collar, cuffs, stitching and polo buttons match the new muted fabric. Preserve every other detail exactly: garment style and cut, folds, camera crop, background, lighting, model skin and trousers when present, typography and cream lettering, dark asterisk, large black back grid panel and cream mascot where visible. The orange grid lines in the black artwork may match the muted new fabric. Do not alter printed wording, artwork layout, silhouette or add anything. Keep original photographic quality and real natural fabric texture. Single original photograph, no UI, no watermark.",
+      "filename": "scalio-polo-orange-model-back.png"
+    }
+  ]
+}

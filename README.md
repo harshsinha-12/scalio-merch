@@ -1,30 +1,30 @@
 # Scalio — OFF SCRIPT
 
-A standalone WebGL streetwear concept in Scalio orange, cream, and ink.
+An interactive apparel studio with T-shirt and polo options, plus a saved AI product-photo library.
 
-Open `outputs/Scalio-Photo-Studio.html` directly in a browser. It contains all scripts, styles, fonts, artwork and the four original AI images. The editable website is `dist/index.html`; serve `dist/` through any static host. No dependencies or build required.
+Open `outputs/Scalio-Photo-Studio.html` directly in a browser. This self-contained file includes scripts, fonts and all 32 original photos (about 84 MB). The editable website is `dist/index.html`; serve `dist/` with any static host for individual image loading. No runtime dependencies.
 
-## Revision 4 — AI photo library
+## Garments and colors
 
-The main download options now deliver saved AI-generated PNGs, with thumbnail previews and a full-size photo mode alongside the interactive 3D studio. The cream collection includes garment-only front/back images (1161 × 1355) and on-model front/back images (1086 × 1448). Fabric texture, natural shoulder drape, collar construction and soft photographic shadows refine the presentation.
+Switch between the oversized round-neck T-shirt and relaxed polo. The polo has separate folded collar geometry, a raised placket and two buttons. Both support scroll/drag/keyboard rotation, front/back/side/detail cameras, lighting presets, custom front artwork and the same export options.
 
-Original files live in `dist/assets/photos/` and `outputs/ai-photos/`; `outputs/scalio-ai-photo-pack.zip` bundles all four. Downloads serve these files directly, preserving their original bytes. Changing the 3D garment color, lighting or uploaded artwork does not regenerate the saved collection; the interface labels this explicitly.
+Four colors are available in 3D and the photo library: Ink Black, Cream, Burnt Orange (#BD6A45) and Ash Gray (#B3B4AD). The original vivid orange garment photos have been replaced with a quieter terracotta tone.
 
-Images were generated with the built-in image_gen tool using the existing front/back design renders as references. The complete prompt set is saved in `scripts/photo-prompts.json`. AI images are presentation concepts; the flat artwork and placement sheet remain available under “3D mockups & artwork references.”
+Stone, Signal and Graphite select the visible 3D stage background and the background of single-view 3D exports. The paired supplier sheet keeps a neutral background. AI photos retain their photographed studio background.
 
-## Revision 3 — Apparel studio
+## Images and downloads
 
-The interface is a professional product workspace with a neutral stage, dark inspector, lighting presets (Softbox, Gallery, Contrast), three environment treatments and immediate garment controls. Scroll/drag rotation and camera presets remain available. The garment has a higher back neckline, more relaxed sleeve drop, softer directional fill light and reduced artwork distress. The mascot's curved eyes return to the original friendly expression.
+There are 32 saved original AI PNGs: 2 garments × 4 colors × 4 views (garment-only front/back and on-model front/back). Selecting a garment or color updates thumbnails, full-size previews and download destinations together. Download buttons deliver image files, not HTML or screenshots. Lighting changes and custom artwork apply to the 3D model, not these pre-generated photos.
 
-Downloads:
+- `dist/assets/photos/`: website image assets.
+- `outputs/ai-photos/`: all 32 original PNGs for direct sharing.
+- `outputs/scalio-all-colors-photo-pack.zip`: all photos organized by garment and color.
+- `outputs/scalio-polo-photo-pack.zip`: the 16 polo images.
+- `outputs/scalio-off-script-source.zip`: editable source and assets.
 
-- Front PNG: 2400 × 2800, fixed straight-on camera.
-- Back PNG: 2400 × 2800, fixed straight-on camera.
-- Front + back sheet: 3600 × 2600, labeled views on a neutral background.
-- Current studio angle: 2400 × 2800, selected environment.
-- Front/back flat artwork: 4096 × 4096, transparent PNGs rendered at native resolution.
+Built-in image_gen was used throughout. Exact prompt sets are in `scripts/photo-prompts.json`, `scripts/polo-photo-prompts.json`, `scripts/color-photo-prompts.json` and `scripts/muted-orange-prompts.json`.
 
-Fixed-view exports preserve the user's interactive pose. The supplier sheet is a placement/design reference; print dimensions, garment measurements and ink choices are to be agreed with the supplier. No manufacturing measurements are invented.
+The secondary “3D mockups & artwork references” panel provides fixed front/back PNGs at 2400 × 2800, a 3600 × 2600 supplier sheet, current-angle PNGs and transparent 4096 × 4096 flat artwork. Filenames identify garment, color and view. Camera exports restore the interactive pose. These are design references; production dimensions and ink choices remain to be agreed with the supplier.
 
 ## Design references
 
@@ -37,7 +37,11 @@ Original Scalio artwork; no competitor graphics copied. Mascot geometry adapted 
 
 ## Validation
 
-`node --check dist/app.js` and `node scripts/verify-mesh.cjs` pass. Geometry validation checks finite coordinates and unit normals. All four AI images were visually reviewed. Native Safari review covered the new photo preview and download flow; the downloaded garment-back PNG was verified byte-for-byte against the original. All four standalone embedded images were also verified against the source files. Earlier studio checks covered front/back and paired-sheet exports. Mobile interaction was not browser-tested in this revision. The interactive model is a stylized procedural apparel visualization.
+- `node --check dist/app.js`: JavaScript syntax.
+- `node scripts/verify-mesh.cjs`: both garment meshes have finite vertices and unit normals; polo trim and buttons are present.
+- `node scripts/verify-selections.cjs`: runs the actual selection/download handlers in a minimal DOM without a GPU, covering all 32 combinations and three background transitions.
+- Every standalone embedded PNG was compared byte-for-byte to its original asset.
+- Native Safari review covered garment switching, gray polo rendering, Graphite stage background, photo preview and a gray polo image download. The downloaded PNG was compared to its original asset. All generated images were visually reviewed. Mobile interaction was not browser-tested.
 
 Run `python3 scripts/build-standalone.py` to rebuild the self-contained HTML.
 
