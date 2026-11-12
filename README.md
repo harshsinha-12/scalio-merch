@@ -4,11 +4,19 @@ A standalone WebGL streetwear concept in Scalio orange, cream, and ink.
 
 Open `outputs/Scalio-Off-Script.html` directly in a browser. It contains all scripts, styles, fonts and artwork. The editable website is `dist/index.html`; serve `dist/` through any static host. No dependencies or build required.
 
-## Revision 2
+## Revision 3 — Apparel studio
 
-The original disconnected sleeve cylinders and shoulder panels have been replaced with a single garment outline, front/back shells and sewn side edges. Collar, cuffs and hem remain open. Adaptive triangulation resolves long diagonal shading artifacts, with shared normals and more consistent seam lighting.
+The interface is a professional product workspace with a neutral stage, dark inspector, lighting presets (Softbox, Gallery, Contrast), three environment treatments and immediate garment controls. Scroll/drag rotation and camera presets remain available. The garment has a higher back neckline, more relaxed sleeve drop, softer directional fill light and reduced artwork distress. The mascot's curved eyes return to the original friendly expression.
 
-The new OFF SCRIPT capsule uses a quiet chest signature and an oversized three-pass mascot poster on the back. Includes distressed ink, a graph-paper field, small woven-label detail, and screenprint-style color treatments. The studio includes flat artwork proofs, immediate color controls, and front/back/side/detail presets. Drag, keyboard rotation, scroll rotation, custom artwork upload and 2000 × 2400 PNG export remain available.
+Downloads:
+
+- Front PNG: 2400 × 2800, fixed straight-on camera.
+- Back PNG: 2400 × 2800, fixed straight-on camera.
+- Front + back sheet: 3600 × 2600, labeled views on a neutral background.
+- Current studio angle: 2400 × 2800, selected environment.
+- Front/back flat artwork: 4096 × 4096, transparent PNGs rendered at native resolution.
+
+Fixed-view exports preserve the user's interactive pose. The supplier sheet is a placement/design reference; print dimensions, garment measurements and ink choices are to be agreed with the supplier. No manufacturing measurements are invented.
 
 ## Design references
 
@@ -21,7 +29,7 @@ Original Scalio artwork; no competitor graphics copied. Mascot geometry adapted 
 
 ## Validation
 
-`node --check dist/app.js` and `node scripts/verify-mesh.cjs` pass. Geometry validation checks finite coordinates and unit normals. Native Safari review covered rebuilt front/back views, ink/cream colorways and updated graphic contrast. A 2000 × 2400 campaign PNG was downloaded and inspected. Final seam-normal refinement and the new side preset loaded, but the screen-capture service failed during the last side-view review. Mobile and custom upload were not retested in this revision. This is a stylized procedural apparel visualization, not a physical cloth simulation or manufacturing file.
+`node --check dist/app.js` and `node scripts/verify-mesh.cjs` pass. Geometry validation checks finite coordinates and unit normals. Native Safari review covered the studio layout and updated cream back view. Front, back and paired-sheet PNGs were downloaded successfully, and the paired sheet was visually inspected. Exported image dimensions were verified. Flat artwork export and mobile interaction were not browser-tested in this revision. The model is a stylized procedural apparel visualization.
 
 Run `python3 scripts/build-standalone.py` to rebuild the self-contained HTML.
 
