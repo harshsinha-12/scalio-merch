@@ -1,9 +1,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.join(__dirname, '..');
-const imagePath = 'assets/social/scalio-off-script.png';
+const imagePath = 'assets/social/scalio-off-script-sparkle.png';
 const title = 'Scalio — OFF SCRIPT Apparel Studio';
-const description = 'Explore the OFF SCRIPT T-shirt and polo in 3D. Four colorways, front and back views, and studio images ready to share.';
+const description = 'Explore OFF SCRIPT T-shirts, polos, hoodies and bomber jackets in 3D. Four colorways, front and back views, and studio images ready to share.';
 const alt = 'Scalio OFF SCRIPT apparel studio with a cream graphic T-shirt on a warm neutral background.';
 const escape = value => value.replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 

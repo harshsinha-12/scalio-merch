@@ -24,7 +24,7 @@ const context={document,window,console,Image:class{complete=true},matchMedia:()=
  await vm.runInNewContext(source,context);
  assert(!one('#status').textContent.includes('could not initialize'),'App initialization failed');
  const poses=['product-front','product-back','model-front','model-back'];
- for(const garment of ['tee','polo'])for(const color of ['ink','cream','orange','gray']){
+ for(const garment of ['tee','polo','hoodie','bomber'])for(const color of ['ink','cream','orange','gray']){
   all('[data-garment]').find(b=>b.dataset.garment===garment).onclick();
   all('[data-color]').find(b=>b.dataset.color===color).onclick();
   for(const pose of poses){
@@ -33,7 +33,7 @@ const context={document,window,console,Image:class{complete=true},matchMedia:()=
    const d=downloads.at(-1);
    assert.equal(d.href,one('#photo-display').src,'Downloaded image differs from preview');
    assert(d.filename.includes(color)&&d.filename.includes(pose),'Wrong color/view download');
-   assert.equal(d.filename.includes('polo'),garment==='polo','Wrong garment download');
+   assert.equal(d.filename.includes(garment==='tee'?'polo':garment),garment!=='tee','Wrong garment download');
    assert(fs.existsSync(path.join(root,'dist',d.href)),'Missing photo asset');
   }
  }
@@ -42,5 +42,5 @@ const context={document,window,console,Image:class{complete=true},matchMedia:()=
   assert.equal(document.body.dataset.environment,bg);
   assert.equal(one('#photo-stage').hidden,true,'Background selector should display 3D');
  }
- console.log('Passed: 32 garment/color/view preview-download combinations and 3 background transitions.');
+ console.log('Passed: 64 garment/color/view preview-download combinations and 3 background transitions.');
 })().catch(e=>{console.error(e);process.exitCode=1});

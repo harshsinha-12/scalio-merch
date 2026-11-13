@@ -1,8 +1,8 @@
 # Scalio — OFF SCRIPT
 
-An interactive apparel studio with T-shirt and polo options, plus a saved AI product-photo library.
+An interactive apparel studio with T-shirt, polo, hoodie and bomber options, plus a saved AI product-photo library.
 
-Open `outputs/Scalio-Photo-Studio.html` directly in a browser. This self-contained file includes scripts, fonts and all 32 original photos (about 84 MB). The editable website is `dist/index.html`; serve `dist/` with any static host for individual image loading. No runtime dependencies.
+Open `outputs/Scalio-Photo-Studio.html` directly in a browser. This self-contained file includes scripts, fonts and all 64 current photos. The editable website is `dist/index.html`; serve `dist/` with any static host for individual image loading. No runtime dependencies.
 
 ## Garments and colors
 
@@ -14,10 +14,10 @@ Stone, Signal and Graphite select the visible 3D stage background and the backgr
 
 ## Images and downloads
 
-There are 32 saved original AI PNGs: 2 garments × 4 colors × 4 views (garment-only front/back and on-model front/back). Selecting a garment or color updates thumbnails, full-size previews and download destinations together. Download buttons deliver image files, not HTML or screenshots. Lighting changes and custom artwork apply to the 3D model, not these pre-generated photos.
+There are 64 saved AI PNGs: 4 garments × 4 colors × 4 views (garment-only front/back and on-model front/back). Selecting a garment or color updates thumbnails, full-size previews and download destinations together. Download buttons deliver image files, not HTML or screenshots. Lighting changes and custom artwork apply to the 3D model, not these pre-generated photos.
 
 - `dist/assets/photos/`: website image assets.
-- `outputs/ai-photos/`: all 32 original PNGs for direct sharing.
+- `outputs/ai-photos/`: all 64 current PNGs for direct sharing.
 - `outputs/scalio-all-colors-photo-pack.zip`: all photos organized by garment and color.
 - `outputs/scalio-polo-photo-pack.zip`: the 16 polo images.
 - `outputs/scalio-off-script-source.zip`: editable source and assets.
@@ -39,7 +39,7 @@ Original Scalio artwork; no competitor graphics copied. Mascot geometry adapted 
 
 - `node --check dist/app.js`: JavaScript syntax.
 - `node scripts/verify-mesh.cjs`: both garment meshes have finite vertices and unit normals; polo trim and buttons are present.
-- `node scripts/verify-selections.cjs`: runs the actual selection/download handlers in a minimal DOM without a GPU, covering all 32 combinations and three background transitions.
+- `node scripts/verify-selections.cjs`: runs the actual selection/download handlers in a minimal DOM without a GPU, covering all 64 combinations and three background transitions.
 - Every standalone embedded PNG was compared byte-for-byte to its original asset.
 - Native Safari review covered garment switching, gray polo rendering, Graphite stage background, photo preview and a gray polo image download. The downloaded PNG was compared to its original asset. All generated images were visually reviewed. Mobile interaction was not browser-tested.
 
@@ -51,10 +51,24 @@ For Vercel, import `harshsinha-12/scalio-merch` with the repository root as the 
 
 ### Social sharing
 
-The page contains Open Graph and Twitter large-image card metadata, with a dedicated branded image at `dist/assets/social/scalio-off-script.png`. The image was created with built-in image_gen; the final prompt is in `scripts/social-image-prompt.json`.
+The page contains Open Graph and Twitter large-image card metadata, with a dedicated branded image at `dist/assets/social/scalio-off-script-sparkle.png`. The image was created with built-in image_gen; the final prompt is in `scripts/social-image-prompt.json`.
 
 The build injects absolute image, canonical and `og:url` URLs into the HTML before deployment. It uses `SITE_URL` when explicitly set, otherwise Vercel's `VERCEL_PROJECT_PRODUCTION_URL`, then `VERCEL_URL`. Keep Vercel's system environment variables enabled; set `SITE_URL=https://your-custom-domain.com` if you want an explicit canonical domain. The source `dist/index.html` uses relative URLs for local previews. Outside Vercel, supply `SITE_URL` when running the build and publish `build/`.
 
 Run `node scripts/verify-social.cjs` to check URL selection, tag uniqueness, image dimensions and the Twitter card. Live social-platform scraping can only be checked after public deployment. Domain handling follows [Vercel's system variable documentation](https://vercel.com/docs/environment-variables/system-environment-variables); metadata follows the [Open Graph protocol](https://ogp.me/).
 
 Configuration follows [Vercel's static build guidance](https://vercel.com/docs/builds) and [vercel.json reference](https://vercel.com/docs/project-configuration/vercel-json). The standalone HTML and ZIP files under `outputs/` are local sharing artifacts and are not committed or deployed.
+
+## Original Scalio logo and outerwear update
+
+The original Scalio wordmark and curved filled sparkle cluster are in `dist/assets/brand/`, sourced from the local Scalio brand assets. The 3D garment textures, chest/hem/back signatures, artwork exports, studio page branding and social card use this logo. The 32 tee/polo photos were individually edited with built-in image_gen. The hoodie and bomber add 32 more PNGs, including garment-only and on-model front/back views in all four colors. New filenames include `-sparkle` so browsers request the new assets.
+
+The hoodie has a continuous long-sleeved shell, folded hood, kangaroo pocket, rib cuffs and sleeve typography. The bomber has long sleeves, a rib collar/hem/cuffs, welt pockets, center zipper with teeth and pull, a sleeve badge and a smaller back composition. The 3D versions are procedural design mockups; AI photographs interpret construction and print placement and are not manufacturing proofs.
+
+The prompt/provenance files are `scripts/sparkle-master-prompts.json`, `scripts/sparkle-photo-edits.json` and `scripts/outerwear-photo-prompts.json`. Photo packs are rebuilt from exactly the assets currently used by the site.
+
+Additional references: [Nous Research Badge Hoodie](https://shop.nousresearch.com/products/nous-hoodie-1), [Perplexity Comet Hoodie](https://perplexity.supply/products/comet-hoodie). Their design language informed placement and garment details; all displayed branding and artwork belong to Scalio.
+
+Latest validation: all four meshes have finite vertices and unit normals; 64 preview/download selections and sharing metadata pass. All 64 standalone embedded photos match the selected PNG files byte-for-byte. Native Safari review covered the original sparkle mark on fabric, outerwear switching, a revised hood/cuffs, bomber collar/zipper and gray bomber photo preview. Safari opened the exact PNG on the local file link; saving through a publicly hosted URL has not been re-tested. Use the standalone file for offline sharing or deploy the static site.
+
+Run `python3 scripts/package-photos.py` after image changes to refresh the photo packs. Final orange outerwear print corrections are recorded in `scripts/outerwear-orange-corrections.json`.
